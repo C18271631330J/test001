@@ -1,7 +1,7 @@
 package GitTest001;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Test001 {
 	
@@ -10,8 +10,5 @@ public class Test001 {
 		System.out.println("hello...!");
 	}
 
-	List<String> list = new ArrayList<String>();
-	
-	
-	
+	Map map = new HashMap();
 }
