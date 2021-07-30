@@ -24,6 +24,8 @@ linux系统中查找服务部署在哪个项目下：
  比如：  find / -name "SmsBoard-*.jar"
 		 ps -ef|grep 
 
+测试git提交。。。
+
 
 
 
