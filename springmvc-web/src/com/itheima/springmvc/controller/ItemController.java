@@ -104,4 +104,9 @@ public class ItemController {
 		System.out.println("测试chenjie001提交代码2");
 	}
 
+	// 测试chenjie001提交代码4
+	public static void main(String[] args) {
+		System.out.println("测试chenjie001提交代码4");
+	}
+
 }
