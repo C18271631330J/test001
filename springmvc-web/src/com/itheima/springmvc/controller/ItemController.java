@@ -93,5 +93,10 @@ public class ItemController {
 	public static void main(String[] args) {
 		System.out.println("I Love You ChenJie . . . !");
 	}
+
+	// 测试chenjie001提交代码2
+	public static void main(String[] args) {
+		System.out.println("测试chenjie001提交代码2");
+	}
 	
 }
