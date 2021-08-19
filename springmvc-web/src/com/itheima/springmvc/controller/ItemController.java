@@ -89,5 +89,9 @@ public class ItemController {
 		return "success";
 	}
 
+	// 测试chenjie001提交代码
+	public static void main(String[] args) {
+		System.out.println("I Love You ChenJie . . . !");
+	}
 	
 }
