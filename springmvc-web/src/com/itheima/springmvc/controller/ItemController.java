@@ -20,7 +20,7 @@ import com.itheima.springmvc.service.ItemService;
  * 商品处理Controller
  * <p>Title: ItemController</p>
  * <p>Description: </p>
- * <p>Company: www.itcast.cn</p>
+ * <p>Company: www.itcast.cn</p> 
  * @version 1.0
  */
 @Controller
@@ -30,7 +30,7 @@ public class ItemController {
 	//test Github 第三次提交代码
 	@Autowired
 	private ItemService itemService;
-
+	
 	@RequestMapping("/itemList")
 	public ModelAndView getItemList() {
 		//查询商品列表
@@ -43,9 +43,9 @@ public class ItemController {
 		//返回结果
 		return modelAndView;
 	}
-
+	
 	/*@RequestMapping("/itemEdit")
-	public String editItem(HttpServletRequest request,
+	public String editItem(HttpServletRequest request, 
 			HttpServletResponse response, HttpSession session, Model model) {
 		//从request中取参数
 		String strId = request.getParameter("id");
@@ -72,20 +72,20 @@ public class ItemController {
 		//返回逻辑视图
 		return "editItem";
 	}
-
+	
 	@RequestMapping("/updateitem")
 	public String updateItem(Items items) {
 		itemService.updateItem(items);
 		//返回成功页面
 		return "success";
 	}
-
+	
 	@RequestMapping("/queryitem")
 	public String queryItem(QueryVo queryVo) {
 		//打印绑定结果
 		System.out.println(queryVo.getItems().getId());
 		System.out.println(queryVo.getItems().getName());
-
+		
 		return "success";
 	}
 
@@ -104,15 +104,14 @@ public class ItemController {
 		System.out.println("测试chenjie001提交代码2");
 	}
 
-
-	// 测试chenjie001提交代码5
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码5");
-
 	// 测试chenjie001提交代码4
 	public static void main(String[] args) {
 		System.out.println("测试chenjie001提交代码4");
-
 	}
 
+	// 测试chenjie001提交代码6
+	public static void main(String[] args) {
+		System.out.println("测试chenjie001提交代码6");
+	}
 }
+
