@@ -123,5 +123,10 @@ public class ItemController {
 	public static void main(String[] args) {
 		System.out.println("测试chenjie001提交代码8");
 	}
+
+	// 测试chenjie001提交代码10
+	public static void main(String[] args) {
+		System.out.println("测试chenjie001提交代码10");
+	}
 }
 
