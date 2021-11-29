@@ -1,9 +1,5 @@
 package com.itheima.springmvc.controller;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,6 +11,8 @@ import org.springframework.web.servlet.ModelAndView;
 import com.itheima.springmvc.pojo.Items;
 import com.itheima.springmvc.pojo.QueryVo;
 import com.itheima.springmvc.service.ItemService;
+
+import java.util.List;
 
 /**
  * 商品处理Controller
@@ -94,49 +92,6 @@ public class ItemController {
 		return "success";
 	}
 
-	// 测试chenjie001提交代码
-	public static void main(String[] args) {
-		System.out.println("I Love You ChenJie . . . !");
-	}
 
-	// 测试chenjie001提交代码3
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码3");
-	}
-
-	// 测试chenjie001提交代码2
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码2");
-	}
-
-	// 测试chenjie001提交代码4
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码4");
-	}
-
-	// 测试chenjie001提交代码6
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码6");
-	}
-
-	// 测试chenjie001提交代码7
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码7");
-	}
-
-	// 测试chenjie001提交代码8
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码8");
-	}
-
-	// 测试chenjie001提交代码9
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码9");
-	}
-
-	// 测试chenjie001提交代码10
-	public static void main(String[] args) {
-		System.out.println("测试chenjie001提交代码10");
-	}
 }
 
