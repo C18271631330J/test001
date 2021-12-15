@@ -86,7 +86,7 @@ public class ItemController {
 	@RequestMapping("/queryitem")
 	public String queryItem(QueryVo queryVo) {
 		//打印绑定结果
-		System.out.println(queryVo.getItems().getId());
+		System.out.println("chenjie002");
 		System.out.println(queryVo.getItems().getName());
 		
 		return "success";
